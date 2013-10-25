@@ -1,0 +1,37 @@
+.animation-setup {
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+}
+.animate-fast {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.animate-slide {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.animate-slide-left {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.animate-slide-right {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.animation-position {
+  position: absolute;
+  width: 100%;
+}
+.slideUp {
+  border: none !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/*Custom Styles*/
